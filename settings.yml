@@ -1,4 +1,5 @@
-example_setting:
-  default: true
+path_regex:
+  type: list
+  default: '^blog'
   description:
-    en: A description of a setting.
+    en: 'RegExps for matching paths (after http(s)://hostname/)'
